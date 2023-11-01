@@ -1,0 +1,5 @@
+a=int(input("please write year: "))
+if not (a%4+a%100+a%400):
+    print("leap year (366 days)")
+else:
+    print("Regular year(365 days)")
